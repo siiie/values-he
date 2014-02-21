@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Universal settings preferences -->
+    <string name="pref_shortcut_title">קיצור דרך</string>
+    <string name="pref_shortcut_default">(ברירת מחדל)</string>
+    <string name="title_apps">אפליקציות</string>
+    <string name="title_shortcuts">קיצורי דרך</string>
+</resources>
