@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">DashClock Battery Extension</string>
+
+    <string name="extension_name">סוללה</string>
+    <string name="extension_description">מציג את מצב הטעינה, הרמה ומידע נוסף אודות הסוללה.</string>
+    <string name="label_settings">הגדרות Battery Extension</string>
+
+    <string name="status_template" translatable="false">%d%%</string>
+    <string name="dock_template" formatted="false">Dock: %d%% — %s</string>
+    <string name="title_template" formatted="false" translatable="false">%d%% — %s</string>
+
+    <string name="unknown">לא ידוע</string>
+
+    <!-- battery_info_status_unknown -->
+    <string name="status_unknown" translatable="false">@string/unknown</string>
+    <!-- battery_info_status_discharging AOSP: Not charging -->
+    <string name="status_discharging">פריקה</string>
+    <!-- battery_info_status_charging -->
+    <string name="status_charging">טעינה</string>
+    <!-- battery_info_status_full AOSP: Full -->
+    <string name="status_full">טעון במלואו</string>
+    <!-- battery_info_status_not_charging -->
+    <string name="status_not_charging">לא טוען</string>
+
+    <string name="charging_template">טעינה (%s)</string>
+    <!-- battery_info_status_charging_ac -->
+    <string name="plugtype_ac">AC</string>
+    <!-- battery_info_status_charging_usb -->
+    <string name="plugtype_usb">USB</string>
+    <!-- battery_info_status_charging_wireless -->
+    <string name="plugtype_wireless">אלחוטי</string>
+
+    <string name="discharging_template">%s על הסוללה</string>
+
+    <string name="estimating_time">מחשב זמן</string>
+    <string name="remaining_on_battery">%s נותרו</string>
+    <string name="until_full">%s עד מלאה</string>
+    <string name="remaining_not_charging">סוללה לא נטענת</string>
+    <string name="remaining_full">סוללה מלאה</string>
+
+    <string name="uptime">שימוש: %s</string>
+    <string name="elapsed_realtime">המתנה: %s</string>
+
+    <string name="template_health">בריאות: %s</string>
+    <!-- battery_info_health_unknown -->
+    <string name="health_unknown" translatable="false">@string/unknown</string>
+    <!-- battery_info_health_good -->
+    <string name="health_good">טובה</string>
+    <!-- battery_info_health_overheat -->
+    <string name="health_overheat">התחממות יתר</string>
+    <!-- battery_info_health_dead -->
+    <string name="health_dead">מתה</string>
+    <!-- battery_info_health_over_voltage -->
+    <string name="health_over_voltage">מתח יתר</string>
+    <!-- battery_info_health_unspecified_failure AOSP: Unknown error -->
+    <string name="health_unspecified_failure">כשל לא מזוהה</string>
+    <!-- battery_info_health_cold -->
+    <string name="health_cold">קרה</string>
+
+    <string name="template_temperature" formatted="false" translatable="false">%.1f%s</string>
+    <string name="abrv_celsius" translatable="false">°C</string>
+    <string name="abrv_fahrenheit" translatable="false">°F</string>
+
+    <string name="template_voltage" translatable="false">%dmV</string>
+
+    <string name="battery_history" formatted="false" translatable="false">%s %s</string>
+
+    <plurals name="days">
+        <item quantity="one">יום %d</item>
+        <item quantity="other">%d ימים</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">שעה %d</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">דקה %d</item>
+        <item quantity="other">%d דקות</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">שניה %d</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+
+    <!-- About -->
+    <string name="about">אודות</string>
+    <string name="close">סגירה</string>
+
+    <string name="app_name_and_version" translatable="false"><![CDATA[
+        <b>%1$s</b>&nbsp;<font color="#888888">v%2$s</font>
+    ]]></string>
+    <string name="about_body"><![CDATA[
+        <b>by</b> <a href="https://twitter.com/grantland>Grantland Chew</a>
+        <br /><br />
+        תודה רבה ל-<a href="https://twitter.com/romannurik">Roman Nurik</a> עבור <a href="https://play.google.com/store/apps/details?id=net.nurik.roman.dashclock">DashClock</a> והפיכת הפרוייקט לקוד פתוח.
+    ]]></string>
+
+    <!-- BatterySettingsActivity -->
+    <string name="display_when_title">הצגת סיומת סוללה</string>
+    <string name="display_time_on_battery_title">הצגת זמן על סוללה</string>
+    <string name="display_time_on_battery_message">מציג את כמות הזמן שהמכשיר פועל על סוללה.</string>
+    <string name="display_time_remaining_title">הצגת זמן נותר/ זמן עד מלאה</string>
+    <string name="display_time_remaining_message">מציג את כמות הזמן שנותרה כאשר על סוללה וזמן עד טעינה מלאה.</string>
+    <string name="display_uptime_title">הצגת שימוש המערכת</string>
+    <string name="display_uptime_message">מציג את כמות הזמן מאז האתחול, לא כולל הזמן שבשינה עמוקה.</string>
+    <string name="display_elapsed_realtime_title">הצגת זמן המתנה של המערכת</string>
+    <string name="display_elapsed_realtime_message">מציג את כמות הזמן מאז האתחול, כולל הזמן שבשינה עמוקה.</string>
+    <string name="display_details_title">הצגת פרטים</string>
+    <string name="display_temperature_units_title">יחידות טמפרטורה</string>
+    <string name="delimiter_comma" translatable="false">", "</string>
+    <string name="delimiter_line" translatable="false">" | "</string>
+    <string name="hide">הסתרה</string>
+    <string name="none">אף אחד</string>
+
+    <string name="health">בריאות</string>
+    <string name="temperature">טמפרטורה</string>
+    <string name="voltage">מתח</string>
+    <string name="technology">טכנולוגיה</string>
+
+    <string name="donate_title">תרומה</string>
+    <string name="donate_body">הראו את הערכתכם עבור הזמן והמאמץ שהושקעו ביצירת DashClock Battery Extension על ידי תרומה למפתח.</string>
+    <string name="donate_max">וואו, תרמתם את הכמות המקסימלית האפשרית, תודה לכם!</string>
+    <string name="donate_thank_you">תודה לכם על תמיכתכם!</string>
+    <!--
+    Alternatives:
+    Donate to support the development of DashClock Battery Extension.
+    Feel free to donate if you like DashClock Battery Extension. Not only will donations support continued development of this extension,
+    -->
+    <string name="amount_label"><![CDATA[
+        <b>כמות</b>
+        ]]></string>
+
+    <string name="support_donate_title" translatable="false">@string/donate_title</string>
+    <string name="support_donate_summary">הראו את תמיכתם עבור DashClock Battery Extension.</string>
+    <string name="support_listing_title">הצגה ב-Google Play</string>
+    <string name="support_listing_summary">שתפו, דרגו, 1+ או הגיבו על DashClock Battery Extension.</string>
+    <string name="support_contact_title">שלחו דוא"ל למפתח</string>
+    <string name="support_contact_summary" translatable="false">@string/developer_email</string>
+    <string name="developer_email" translatable="false">android+dashclock@grantland.me</string>
+    <string name="email_subject" translatable="false">DashClock Battery Extension v%s</string>
+</resources>
